@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cal-with-react/static/css/main.f855e6bc.css",
+    "main.js": "/cal-with-react/static/js/main.0f69a85e.js",
+    "static/js/453.83bdee10.chunk.js": "/cal-with-react/static/js/453.83bdee10.chunk.js",
+    "static/media/logo.svg": "/cal-with-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/cal-with-react/index.html",
+    "main.f855e6bc.css.map": "/cal-with-react/static/css/main.f855e6bc.css.map",
+    "main.0f69a85e.js.map": "/cal-with-react/static/js/main.0f69a85e.js.map",
+    "453.83bdee10.chunk.js.map": "/cal-with-react/static/js/453.83bdee10.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.0f69a85e.js"
+  ]
+}
