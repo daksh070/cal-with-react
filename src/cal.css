@@ -1,0 +1,78 @@
+/* cal.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+.calculator h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.screen input {
+  width: 100%;
+  font-size: 24px;
+  padding: 10px;
+  margin-left: -10px;
+  text-align: right;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  outline: none;
+  background: #f9f9f9;
+}
+
+.button {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.button button {
+  padding: 15px 0;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button button:hover {
+  background-color: #0056b3;
+}
+
+.button .equals {
+  grid-column: span 2;
+  background-color: #28a745;
+}
+
+.button .equals:hover {
+  background-color: #1e7e34;
+}
+
+.button .clear {
+  grid-column: span 2;
+  background-color: #dc3545;
+}
+
+.button .clear:hover {
+  background-color: #a71d2a;
+}
